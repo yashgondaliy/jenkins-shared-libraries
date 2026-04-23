@@ -1,5 +1,5 @@
 def call(String credId,String imageName){
-    withCredentails([usernamePassword(
+    withCredentials([usernamePassword(
                         credentailsId:"${credId}",
                         usernameVariable:"dockerHubUser",
                         passwordVariable:"dockerHubPass"
